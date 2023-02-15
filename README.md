@@ -120,6 +120,7 @@ think about what you need to do to implement this behavior.
 genre. Each genre name key should point to a value that is the number of songs
 that have that genre.
 
+
 ```ruby
 Song.genre_count
   # => {"rap" => 5, "rock" => 1, "country" => 3}
